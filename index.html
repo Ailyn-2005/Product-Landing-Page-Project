@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casio Chrono | Digital Masterpiece</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-container">
+    <div class="logo">
+      <i class="fas fa-clock"></i> CASIO<span class="logo-accent">chrono</span>
+    </div>
+    <button class="menu-toggle" id="menuBtn">
+      <i class="fas fa-bars"></i>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#specs">Specs</a></li>
+      <li><a href="#interactive">Offers</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section id="home" class="hero">
+  <div class="container hero-grid">
+    <div class="hero-content">
+      <div class="hero-badge">SINCE 1974 • LEGACY EDITION</div>
+      <h1>CASIO <span class="gradient-text">ChronoMaster</span></h1>
+      <p class="hero-tagline">Where vintage soul meets future technology</p>
+      <p class="hero-desc">10-Year battery • Shock resistant • 200M Waterproof • Solar powered</p>
+      <div class="hero-actions">
+        <button class="btn btn-primary" id="shopBtn">
+          <i class="fas fa-shopping-cart"></i> Pre-order Now
+        </button>
+        <button class="btn btn-secondary" id="watchTrailerBtn">
+          <i class="fas fa-play"></i> Watch Story
+        </button>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="watch-container">
+        <img src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=500&h=500&fit=crop" alt="Casio G-Shock Watch" class="watch-img">
+        <div class="watch-glare"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="features" class="features">
+  <div class="container">
+    <h2 class="section-title">Iconic <span class="highlight">Casio DNA</span></h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+        <h3>10-Year Battery</h3>
+        <p>Revolutionary power cell • No charging needed for a decade</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+        <h3>Shock Resistant</h3>
+        <p>Military-grade durability • Survives 10m drop test</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fas fa-water"></i></div>
+        <h3>200M Waterproof</h3>
+        <p>ISO certified • Professional diving ready</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fas fa-satellite-dish"></i></div>
+        <h3>Multi-Band 6</h3>
+        <p>Atomic timekeeping • Syncs with 6 global towers</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fas fa-solar-panel"></i></div>
+        <h3>Tough Solar</h3>
+        <p>Any light becomes power • Never change batteries</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fas fa-bluetooth-b"></i></div>
+        <h3>Bluetooth Link</h3>
+        <p>Smartphone sync • World time • Find my phone</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="specs" class="specs">
+  <div class="container">
+    <div class="specs-wrapper">
+      <div class="specs-image">
+        <img src="https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=500&h=500&fit=crop" alt="Casio Watch Display">
+      </div>
+      <div class="specs-content">
+        <h2>Technical <span class="highlight">Mastery</span></h2>
+        <div class="specs-list">
+          <div class="spec-item">
+            <i class="fas fa-microchip"></i>
+            <span>Module 5718 • Japanese Movement</span>
+          </div>
+          <div class="spec-item">
+            <i class="fas fa-chart-line"></i>
+            <span>±15 seconds per month accuracy</span>
+          </div>
+          <div class="spec-item">
+            <i class="fas fa-moon"></i>
+            <span>Super Illuminator LED backlight</span>
+          </div>
+          <div class="spec-item">
+            <i class="fas fa-calendar-alt"></i>
+            <span>Full auto-calendar until 2099</span>
+          </div>
+          <div class="spec-item">
+            <i class="fas fa-stopwatch"></i>
+            <span>1/100 sec stopwatch • Countdown timer</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="interactive" class="interactive">
+  <div class="container">
+    <h2 class="section-title">🔥 Limited <span class="highlight">Flash Sale</span></h2>
+    <div class="interactive-grid">
+      <!-- Countdown Timer Element 1 -->
+      <div class="card timer-card">
+        <div class="card-icon"><i class="fas fa-hourglass-half"></i></div>
+        <h3>Early Bird Offer Ends In</h3>
+        <div class="countdown">
+          <div class="time-box">
+            <span id="days">00</span>
+            <span class="time-label">Days</span>
+          </div>
+          <div class="time-box">
+            <span id="hours">00</span>
+            <span class="time-label">Hours</span>
+          </div>
+          <div class="time-box">
+            <span id="minutes">00</span>
+            <span class="time-label">Mins</span>
+          </div>
+          <div class="time-box">
+            <span id="seconds">00</span>
+            <span class="time-label">Secs</span>
+          </div>
+        </div>
+        <button id="resetTimer" class="reset-btn">
+          <i class="fas fa-sync-alt"></i> Reset Demo Timer
+        </button>
+        <p class="timer-note">*Offer: Free Casio limited strap</p>
+      </div>
+      
+      <!-- Surprise Button Element 2 -->
+      <div class="card surprise-card">
+        <div class="card-icon"><i class="fas fa-gift"></i></div>
+        <h3>Unlock Secret Discount</h3>
+        <p>Click the button for an exclusive Casio code</p>
+        <button class="surprise-btn" id="surpriseBtn">
+          <i class="fas fa-key"></i> Reveal Hidden Deal
+        </button>
+        <div id="discountMsg" class="discount-message"></div>
+        <div class="bonus-text">
+          <i class="fas fa-truck"></i> Free worldwide shipping
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3><i class="fas fa-clock"></i> CASIOchrono</h3>
+        <p>Tough. Precise. Timeless.</p>
+      </div>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>© 2026 CASIO Chrono Division. All rights reserved. | Designed for durability since 1974</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
